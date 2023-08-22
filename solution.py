@@ -1,14 +1,23 @@
 #Task1
 
-num1 = 5
-num2 = 10
+#num1 = 5
+#num2 = 10
+
+#sum = 0
+#sum += num1
+#sum += num2
+
+
+num3 = 20
+num4 = -5
 
 sum = 0
-
-sum += num1
-sum += num2
+sum += num3
+sum += num4
 
 print("The sum is", sum)
+
+
 
 
 #Task2
@@ -19,10 +28,10 @@ num3 = 4
 num4 = 5
 
 product = 1
-product *= num1
-product *= ___
-product *= ___
-______________
+product *= num2
+product *= num3
+product *= num4
+product *= num1 # this was a line with gap to add 
 
 print("The product is:", product)
 
@@ -39,18 +48,18 @@ char9 = "r"
 char10 = "l"
 char11 = "d"
 
-reverse = ______
-reverse += ______
-reverse += ______
-_________
-_________
-_________
-_________
-_________
-_________
-_________
-_________
-_________
+reverse = char11 
+reverse += char10
+reverse += char9
+reverse += char8
+reverse += char7
+reverse += char6
+reverse += char5
+reverse += char4
+reverse += char3
+reverse += char2
+reverse += char1
+
 
 print("The resulting string is:", reverse)
 
@@ -59,9 +68,8 @@ str1 = "apple"
 str2 = "banana"
 str3 = "cherry"
 
-_________
-_________
-_________
+fruit = str1
+fruit += str2
+fruit += str3
 
-print("The concatenated string is:", concatenated)
-
+print("The concatenated string is:", fruit)
